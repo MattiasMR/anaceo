@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANACEO — Asociación Nacional Científica de Estudiantes de Odontología · Chile</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#inicio" class="nav-logo">
+    <div class="nav-logo-text">ANA<span class="blue">CEO</span></div>
+    <div class="nav-dots">
+      <span style="background:#5A6AF0"></span>
+      <span style="background:#E83535"></span>
+      <span style="background:#3CC83C"></span>
+      <span style="background:#F5D820"></span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#sobre">Quiénes somos</a></li>
+    <li><a href="#conadeo-2026">CONADEO 2026</a></li>
+    <li><a href="#manual">Manual Práctico</a></li>
+    <li><a href="#contacto" class="nav-btn">Contacto</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <div class="dot"></div>
+      <span>Asociación Nacional Científica de Estudiantes de Odontología</span>
+    </div>
+    <h1>La ciencia odontológica chilena, con <em>voz estudiantil</em></h1>
+    <p class="hero-sub">ANACEO agrupa a 25 sociedades científicas universitarias de todo Chile. Investigación que circula, sedes que se conocen, congresos que dejan huella.</p>
+    <div class="hero-btns">
+      <a href="#sobre" class="btn-hero-primary">Quiénes somos →</a>
+      <a href="#conadeo-2026" class="btn-hero-ghost">CONADEO 2026 →</a>
+    </div>
+    <button class="hero-scroll" onclick="document.getElementById('stats').scrollIntoView({behavior:'smooth'})">
+      <span>Descubre más</span>
+      <div class="arrow"><svg viewBox="0 0 14 14"><polyline points="2 4 7 10 12 4"/></svg></div>
+    </button>
+  </div>
+</section>
+
+<!-- STATS -->
+<div id="stats">
+  <div class="stats-bar">
+    <div class="stats-bar-inner">
+      <div class="stat-item reveal">
+        <div class="stat-num" data-count="25">0</div>
+        <div class="stat-label">Sociedades científicas<br>universitarias adheridas</div>
+      </div>
+      <div class="stat-item reveal d1">
+        <div class="stat-num" data-count="2">0</div>
+        <div class="stat-label">Ediciones del Manual Práctico<br>de Investigación en Pregrado</div>
+      </div>
+      <div class="stat-item reveal d2">
+        <div class="stat-num stat-num-sm">CONADEO</div>
+        <div class="stat-label">Congreso Nacional de<br>Estudiantes de Odontología</div>
+      </div>
+      <div class="stat-item reveal d3">
+        <div class="stat-num stat-num-sm">SOBE</div>
+        <div class="stat-label">Simposio de Odontología<br>Basado en la Evidencia</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TRUST -->
+<div class="trust-wrap">
+  <div class="trust-inner">
+    <span class="trust-label">En alianza con</span>
+    <div class="trust-pills">
+      <span class="trust-pill hl">IADR División Chile</span>
+      <span class="trust-pill hl">Colegio de Cirujanos Dentistas AG</span>
+      <span class="trust-pill">25 sociedades universitarias adheridas</span>
+      <span class="trust-pill">Manual Práctico · 2 ediciones</span>
+    </div>
+  </div>
+</div>
+
+<hr class="div">
+
+<!-- QUIÉNES SOMOS -->
+<div class="section" id="sobre">
+  <div class="two-col">
+    <div class="col-text">
+      <span class="section-tag reveal">Asociación Nacional</span>
+      <h2 class="section-title reveal d1">ANACEO —<br>División Chilena</h2>
+      <p class="section-body reveal d2">ANACEO agrupa las 25 sociedades científicas estudiantiles de odontología de Chile. Somos la plataforma que conecta investigación, formación y comunidad nacional desde el pregrado.</p>
+      <p class="section-body reveal d2">Mantenemos alianzas formales con el Colegio de Cirujanos Dentistas de Chile AG y con la División Chilena de la IADR — ambas en igualdad de importancia para nuestra misión.</p>
+
+      <!-- ALIANZAS IGUALADAS -->
+      <div class="alianzas-grid reveal d3">
+        <div class="alianza-card">
+          <span class="alianza-chip">Alianza institucional</span>
+          <h3>IADR División Chile</h3>
+          <p>Participamos en el congreso anual de la División Chilena, incluyendo el Premio Hatton y Premio Hatton Jr. para investigadores estudiantiles.</p>
+        </div>
+        <div class="alianza-card">
+          <span class="alianza-chip">Alianza institucional</span>
+          <h3>Colegio de Cirujanos Dentistas AG</h3>
+          <p>Convenio formal vigente con el colegio profesional que agremia a los cirujanos dentistas de Chile, fortaleciendo el vínculo entre el pregrado y la profesión.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-img reveal-r">
+      <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80" alt="Estudiantes en congreso científico de odontología">
+      <div class="dots-deco"></div>
+    </div>
+  </div>
+</div>
+
+<!-- LAS 25 SOCIEDADES — MARQUEE -->
+<div class="sedes-marquee">
+  <div class="sedes-header reveal">
+    <span class="sedes-label-pill">Las 25 sociedades</span>
+    <h3>Una insignia. Una facultad.<br>Un solo movimiento nacional.</h3>
+    <p>Las sociedades científicas estudiantiles de odontología que conforman ANACEO, de Antofagasta a Magallanes.</p>
+  </div>
+
+  <!-- FILA 1 → izquierda (Sociedades 1–13, duplicadas para loop) -->
+  <div class="marquee-wrap">
+    <div class="marquee-track track-left">
+      <!-- Set A -->
+      <div class="soc-pill"><div class="soc-circle" style="background:#5A6AF0">S1</div><div class="soc-info"><strong>SOC 01</strong><span>Sociedad 1</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#E83535">S2</div><div class="soc-info"><strong>SOC 02</strong><span>Sociedad 2</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#3CC83C">S3</div><div class="soc-info"><strong>SOC 03</strong><span>Sociedad 3</span></div></div>
+      <div class="soc-pill"><div class="soc-circle dark-text" style="background:#F5D820">S4</div><div class="soc-info"><strong>SOC 04</strong><span>Sociedad 4</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#0D2260">S5</div><div class="soc-info"><strong>SOC 05</strong><span>Sociedad 5</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#E83535">S6</div><div class="soc-info"><strong>SOC 06</strong><span>Sociedad 6</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#3CC83C">S7</div><div class="soc-info"><strong>SOC 07</strong><span>Sociedad 7</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#5A6AF0">S8</div><div class="soc-info"><strong>SOC 08</strong><span>Sociedad 8</span></div></div>
+      <div class="soc-pill"><div class="soc-circle dark-text" style="background:#F5D820">S9</div><div class="soc-info"><strong>SOC 09</strong><span>Sociedad 9</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#0D2260">S10</div><div class="soc-info"><strong>SOC 10</strong><span>Sociedad 10</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#E83535">S11</div><div class="soc-info"><strong>SOC 11</strong><span>Sociedad 11</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#3CC83C">S12</div><div class="soc-info"><strong>SOC 12</strong><span>Sociedad 12</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#5A6AF0">S13</div><div class="soc-info"><strong>SOC 13</strong><span>Sociedad 13</span></div></div>
+      <!-- Set B (duplicado para loop seamless) -->
+      <div class="soc-pill"><div class="soc-circle" style="background:#5A6AF0">S1</div><div class="soc-info"><strong>SOC 01</strong><span>Sociedad 1</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#E83535">S2</div><div class="soc-info"><strong>SOC 02</strong><span>Sociedad 2</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#3CC83C">S3</div><div class="soc-info"><strong>SOC 03</strong><span>Sociedad 3</span></div></div>
+      <div class="soc-pill"><div class="soc-circle dark-text" style="background:#F5D820">S4</div><div class="soc-info"><strong>SOC 04</strong><span>Sociedad 4</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#0D2260">S5</div><div class="soc-info"><strong>SOC 05</strong><span>Sociedad 5</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#E83535">S6</div><div class="soc-info"><strong>SOC 06</strong><span>Sociedad 6</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#3CC83C">S7</div><div class="soc-info"><strong>SOC 07</strong><span>Sociedad 7</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#5A6AF0">S8</div><div class="soc-info"><strong>SOC 08</strong><span>Sociedad 8</span></div></div>
+      <div class="soc-pill"><div class="soc-circle dark-text" style="background:#F5D820">S9</div><div class="soc-info"><strong>SOC 09</strong><span>Sociedad 9</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#0D2260">S10</div><div class="soc-info"><strong>SOC 10</strong><span>Sociedad 10</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#E83535">S11</div><div class="soc-info"><strong>SOC 11</strong><span>Sociedad 11</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#3CC83C">S12</div><div class="soc-info"><strong>SOC 12</strong><span>Sociedad 12</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#5A6AF0">S13</div><div class="soc-info"><strong>SOC 13</strong><span>Sociedad 13</span></div></div>
+    </div>
+  </div>
+
+  <!-- FILA 2 → derecha (Sociedades 14–25, duplicadas para loop) -->
+  <div class="marquee-wrap">
+    <div class="marquee-track track-right">
+      <!-- Set A -->
+      <div class="soc-pill"><div class="soc-circle dark-text" style="background:#F5D820">S14</div><div class="soc-info"><strong>SOC 14</strong><span>Sociedad 14</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#E83535">S15</div><div class="soc-info"><strong>SOC 15</strong><span>Sociedad 15</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#3CC83C">S16</div><div class="soc-info"><strong>SOC 16</strong><span>Sociedad 16</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#5A6AF0">S17</div><div class="soc-info"><strong>SOC 17</strong><span>Sociedad 17</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#0D2260">S18</div><div class="soc-info"><strong>SOC 18</strong><span>Sociedad 18</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#E83535">S19</div><div class="soc-info"><strong>SOC 19</strong><span>Sociedad 19</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#3CC83C">S20</div><div class="soc-info"><strong>SOC 20</strong><span>Sociedad 20</span></div></div>
+      <div class="soc-pill"><div class="soc-circle dark-text" style="background:#F5D820">S21</div><div class="soc-info"><strong>SOC 21</strong><span>Sociedad 21</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#5A6AF0">S22</div><div class="soc-info"><strong>SOC 22</strong><span>Sociedad 22</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#0D2260">S23</div><div class="soc-info"><strong>SOC 23</strong><span>Sociedad 23</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#E83535">S24</div><div class="soc-info"><strong>SOC 24</strong><span>Sociedad 24</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#3CC83C">S25</div><div class="soc-info"><strong>SOC 25</strong><span>Sociedad 25</span></div></div>
+      <!-- Set B (duplicado para loop seamless) -->
+      <div class="soc-pill"><div class="soc-circle dark-text" style="background:#F5D820">S14</div><div class="soc-info"><strong>SOC 14</strong><span>Sociedad 14</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#E83535">S15</div><div class="soc-info"><strong>SOC 15</strong><span>Sociedad 15</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#3CC83C">S16</div><div class="soc-info"><strong>SOC 16</strong><span>Sociedad 16</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#5A6AF0">S17</div><div class="soc-info"><strong>SOC 17</strong><span>Sociedad 17</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#0D2260">S18</div><div class="soc-info"><strong>SOC 18</strong><span>Sociedad 18</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#E83535">S19</div><div class="soc-info"><strong>SOC 19</strong><span>Sociedad 19</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#3CC83C">S20</div><div class="soc-info"><strong>SOC 20</strong><span>Sociedad 20</span></div></div>
+      <div class="soc-pill"><div class="soc-circle dark-text" style="background:#F5D820">S21</div><div class="soc-info"><strong>SOC 21</strong><span>Sociedad 21</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#5A6AF0">S22</div><div class="soc-info"><strong>SOC 22</strong><span>Sociedad 22</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#0D2260">S23</div><div class="soc-info"><strong>SOC 23</strong><span>Sociedad 23</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#E83535">S24</div><div class="soc-info"><strong>SOC 24</strong><span>Sociedad 24</span></div></div>
+      <div class="soc-pill"><div class="soc-circle" style="background:#3CC83C">S25</div><div class="soc-info"><strong>SOC 25</strong><span>Sociedad 25</span></div></div>
+    </div>
+  </div>
+</div>
+
+<hr class="div">
+
+<!-- CONADEO 2026 — COUNTDOWN -->
+<div class="conadeo-2026" id="conadeo-2026">
+  <div class="conadeo-2026-inner">
+    <div>
+      <span class="c26-tag">Congreso 2026</span>
+      <h2 class="c26-title reveal">CONADEO<br><em>2026</em></h2>
+      <p class="c26-sub reveal d1">El Congreso Nacional de Estudiantes de Odontología — organizado bajo el nombre de ANACEO, con la sede adjudicada a una sociedad científica adherida cada edición.</p>
+      <div class="c26-meta reveal d2">
+        <div class="c26-meta-row">
+          <span class="c26-meta-label">Fecha</span>
+          <span class="c26-meta-val"><strong>Diciembre 2026</strong> · Sede por confirmar</span>
+        </div>
+        <div class="c26-meta-row">
+          <span class="c26-meta-label">Abstracts</span>
+          <span class="c26-meta-val">Convocatoria próximamente</span>
+        </div>
+        <div class="c26-meta-row">
+          <span class="c26-meta-label">Participantes</span>
+          <span class="c26-meta-val">Estudiantes de todas las <strong>25 sedes</strong></span>
+        </div>
+        <div class="c26-meta-row">
+          <span class="c26-meta-label">Organiza</span>
+          <span class="c26-meta-val">Sociedad adherida adjudicada por ANACEO</span>
+        </div>
+      </div>
+      <div class="c26-btns reveal d3">
+        <a href="#contacto" class="btn-c26">Inscripción →</a>
+        <a href="#conadeo-exp" class="btn-c26-ghost">Ver experiencia CONADEO</a>
+      </div>
+    </div>
+    <div class="countdown-wrap reveal-r">
+      <span class="countdown-label">Tiempo estimado para el CONADEO 2026</span>
+      <div class="countdown">
+        <div class="cd-unit">
+          <span class="cd-num" id="cd-days">000</span>
+          <span class="cd-unit-label">Días</span>
+        </div>
+        <div class="cd-unit">
+          <span class="cd-num" id="cd-hours">00</span>
+          <span class="cd-unit-label">Horas</span>
+        </div>
+        <div class="cd-unit">
+          <span class="cd-num" id="cd-mins">00</span>
+          <span class="cd-unit-label">Min</span>
+        </div>
+        <div class="cd-unit">
+          <span class="cd-num" id="cd-secs">00</span>
+          <span class="cd-unit-label">Seg</span>
+        </div>
+      </div>
+      <div class="countdown-footer">
+        <div class="cd-progress-wrap">
+          <div class="cd-progress" id="cdProgress" style="width:0%"></div>
+        </div>
+        <span class="cd-progress-label">Conteo hacia diciembre 2026</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CONADEO EXPERIENCIA — SLIDER -->
+<div class="conadeo-exp" id="conadeo-exp">
+  <div class="conadeo-exp-inner">
+    <div class="exp-text">
+      <span class="section-tag reveal">La experiencia CONADEO</span>
+      <h2 class="section-title reveal d1" style="color:var(--white)">El congreso que convierte comunidad en futuro profesional</h2>
+      <p class="section-body reveal d2" style="max-width:100%">Tres días de conferencias, presentación de trabajos científicos, talleres y networking nacional. Una instancia donde las 25 sedes de ANACEO se encuentran.</p>
+      <div class="exp-note reveal d3">
+        <p><strong>¿Cómo funciona?</strong> ANACEO adjudica el CONADEO a una sociedad científica adherida que lo organiza bajo el nombre e imagen de ANACEO. Cada edición tiene una sede diferente, elegida por el directorio nacional.</p>
+      </div>
+    </div>
+    <div class="reveal-r">
+      <div class="slider-wrap">
+        <div class="slider-track" id="sliderTrack">
+          <div class="slide">
+            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=900&q=75" alt="Congreso científico estudiantil">
+            <div class="slide-caption"><span>Plenario nacional · CONADEO</span></div>
+          </div>
+          <div class="slide">
+            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=75" alt="Presentación de investigaciones">
+            <div class="slide-caption"><span>Presentación de trabajos científicos</span></div>
+          </div>
+          <div class="slide">
+            <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=900&q=75" alt="Talleres clínicos y científicos">
+            <div class="slide-caption"><span>Talleres clínicos y científicos</span></div>
+          </div>
+          <div class="slide">
+            <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=75" alt="Networking estudiantil">
+            <div class="slide-caption"><span>Networking entre las 25 sedes</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-nav">
+        <div class="slider-dots" id="sliderDots">
+          <button class="slider-dot active" onclick="goSlide(0)"></button>
+          <button class="slider-dot" onclick="goSlide(1)"></button>
+          <button class="slider-dot" onclick="goSlide(2)"></button>
+          <button class="slider-dot" onclick="goSlide(3)"></button>
+        </div>
+        <div class="slider-arrows">
+          <button class="slider-arrow" id="prevBtn">←</button>
+          <button class="slider-arrow" id="nextBtn">→</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MANUAL -->
+<div class="manual-section" id="manual">
+  <div class="manual-inner">
+    <div class="manual-text">
+      <span class="section-tag reveal">Publicación propia</span>
+      <h2 class="section-title reveal d1">Manual Práctico de Investigación en Pregrado</h2>
+      <p class="section-body reveal d2">Dos ediciones publicadas por ANACEO para estudiantes de odontología que quieren empezar en investigación. Sin requisitos previos. Sin costos. Escrito desde la experiencia estudiantil, para el pregrado real.</p>
+      <p class="section-body reveal d2">Disponible gratuitamente para todos los miembros de las 25 sociedades adheridas y para cualquier estudiante de odontología en Chile.</p>
+      <a href="#contacto" class="btn-manual reveal d3">Descargar Manual — 2ª edición →</a>
+    </div>
+    <div class="manual-book-img reveal-r">
+      <img id="manualFloatImg" class="manual-float-img" src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=800&q=80" alt="Manual Práctico de Investigación ANACEO">
+      <div class="manual-overlay-card">
+        <div class="moc-label">ANACEO publica</div>
+        <div class="moc-title">Manual Práctico de Investigación en Pregrado</div>
+        <div class="moc-sub">2ª Edición disponible · Descarga gratuita</div>
+        <div class="moc-dots">
+          <span style="background:#5A6AF0"></span>
+          <span style="background:#E83535"></span>
+          <span style="background:#3CC83C"></span>
+          <span style="background:#F5D820"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACTO -->
+<div class="contacto-section" id="contacto">
+  <div class="contacto-bg"></div>
+  <div class="contacto-overlay"></div>
+  <div class="contacto-inner">
+    <div class="contacto-text reveal-l">
+      <h2>Establece contacto con el directorio</h2>
+      <p>Propuestas de alianza institucional, consultas sobre las sociedades adheridas, participación en el CONADEO o cualquier instancia de vinculación formal con ANACEO.</p>
+      <div class="contacto-info">
+        <div class="ci-item"><div class="ci-label">Correo general</div><div class="ci-val">contacto@anaceochile.cl</div></div>
+        <div class="ci-item"><div class="ci-label">Directorio</div><div class="ci-val">directorio@anaceochile.cl</div></div>
+        <div class="ci-item"><div class="ci-label">Redes sociales</div><div class="ci-val">@anaceochile</div></div>
+        <div class="ci-item"><div class="ci-label">Ubicación</div><div class="ci-val">Chile · Cobertura nacional</div></div>
+      </div>
+    </div>
+    <div class="contacto-form reveal-r">
+      <h3>Para enviar un mensaje</h3>
+      <p class="form-note">Te responderemos en máximo 48 horas hábiles.</p>
+      <div class="form-grid-2">
+        <div class="form-field"><label>Nombre</label><input type="text" placeholder="Tu nombre"></div>
+        <div class="form-field"><label>Institución</label><input type="text" placeholder="Universidad / Org."></div>
+      </div>
+      <div class="form-field"><label>Correo electrónico</label><input type="email" placeholder="tu@correo.cl"></div>
+      <div class="form-field">
+        <label>Tipo de consulta</label>
+        <select>
+          <option>Seleccionar</option>
+          <option>Incorporar sociedad como adherida</option>
+          <option>Alianza institucional</option>
+          <option>CONADEO 2026</option>
+          <option>Descargar el Manual Práctico</option>
+          <option>Congreso IADR 2026 (Hatton / Hatton Jr.)</option>
+          <option>Otro</option>
+        </select>
+      </div>
+      <div class="form-field"><label>Mensaje</label><textarea placeholder="Cuéntanos en qué podemos ayudarte..."></textarea></div>
+      <button class="btn-submit" id="submitBtn">Enviar mensaje</button>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-logo">ANA<span class="blue">CEO</span></div>
+      <p class="footer-desc">Asociación Nacional Científica de Estudiantes de Odontología · Chile. Organización sin fines de lucro con directorio electo y estatuto público.</p>
+      <div class="footer-dots">
+        <span style="background:#5A6AF0"></span>
+        <span style="background:#E83535"></span>
+        <span style="background:#3CC83C"></span>
+        <span style="background:#F5D820"></span>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Organización</h4>
+      <ul>
+        <li><a href="#sobre">Sobre ANACEO</a></li>
+        <li><a href="#">Directorio</a></li>
+        <li><a href="#">Estatuto</a></li>
+        <li><a href="#">Sociedades adheridas</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Congresos</h4>
+      <ul>
+        <li><a href="#conadeo-2026">CONADEO 2026</a></li>
+        <li><a href="#">SOBE</a></li>
+        <li><a href="#">Congreso IADR División Chile</a></li>
+        <li><a href="#">Premio Hatton / Hatton Jr.</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <ul>
+        <li><a href="#contacto">Nuevas sociedades</a></li>
+        <li><a href="#contacto">Alianzas</a></li>
+        <li><a href="#manual">Manual Práctico</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 ANACEO · Asociación Nacional Científica de Estudiantes de Odontología · Chile</p>
+    <div class="footer-legal">
+      <a href="#">Política de privacidad</a>
+      <a href="#">Términos de uso</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
