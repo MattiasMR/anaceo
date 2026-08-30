@@ -66,7 +66,7 @@
       ].join('\n');
 
       if (formStatus) formStatus.textContent = 'Abriendo tu aplicación de correo. Revisa el mensaje antes de enviarlo.';
-      window.location.href = `mailto:contacto@anaceochile.cl?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.location.href = `mailto:anaceochile@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     });
   }
 })();
