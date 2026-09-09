@@ -2,37 +2,13 @@
 <!-- Generado desde src/pages/sociedades.html. Edita la fuente y ejecuta node scripts/build.mjs. -->
 <html lang="es">
 <head>
-    <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#102a61">
-  <link rel="icon" type="image/png" href="assets/og-anaceo.png">
-  <link rel="stylesheet" href="css/styles.css?v=24703688f588">
+  {{> head}}
   <meta name="description" content="Directorio y proceso de incorporación de las sociedades científicas estudiantiles que integran ANACEO Chile.">
   <meta property="og:type" content="website"><meta property="og:locale" content="es_CL"><meta property="og:title" content="Sociedades científicas — ANACEO"><meta property="og:description" content="La red nacional de sociedades científicas de estudiantes de odontología."><meta property="og:image" content="https://anaceochile.cl/assets/og-anaceo.png">
   <link rel="canonical" href="https://anaceochile.cl/sociedades.html"><title>Sociedades científicas — ANACEO</title>
 </head>
 <body>
-    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
-
-  <header class="site-header header-solid" data-header>
-    <nav class="site-nav" aria-label="Navegación principal">
-      <a class="brand" href="index.html" aria-label="ANACEO, inicio">
-        <span class="brand-word">ANA<span>CEO</span></span>
-        <span class="brand-dots" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
-      </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-nav-toggle>
-        <span class="sr-only">Abrir menú</span><span></span><span></span><span></span>
-      </button>
-      <div class="nav-menu" id="nav-menu" data-nav-menu>
-        <a href="organizacion.html">Organización</a>
-        <a href="sociedades.html" aria-current="page">Sociedades</a>
-        <a href="investigacion.html">Investigación</a>
-        <a href="eventos.html">Eventos</a>
-        <a href="transparencia.html">Transparencia</a>
-        <a class="nav-cta" href="index.html#contacto">Contacto</a>
-      </div>
-    </nav>
-  </header>
+  {{> header}}
   <main id="contenido">
     <section class="page-hero"><div class="container"><div class="breadcrumb"><a href="index.html">Inicio</a><span aria-hidden="true">/</span><span>Sociedades</span></div><p class="eyebrow eyebrow-light">Red nacional</p><h1>Una sociedad en cada sede, una red para todo Chile.</h1><p>Este directorio permitirá encontrar la organización de cada universidad, sus canales oficiales y la persona responsable de mantener el vínculo con ANACEO.</p></div></section>
     <section class="page-body"><div class="container">
@@ -76,13 +52,6 @@
       <div class="section" style="padding-bottom:0"><div class="section-heading"><div><p class="eyebrow">Incorporación</p><h2>Cómo solicitar adhesión.</h2></div></div><div class="steps"><article class="step"><h3>Presentar la sociedad</h3><p>Nombre oficial, universidad, acta de constitución, directiva vigente y canales de contacto.</p></article><article class="step"><h3>Revisión institucional</h3><p>El directorio de ANACEO verifica requisitos, representación y documentación.</p></article><article class="step"><h3>Confirmación y publicación</h3><p>Una vez aprobada, la sociedad se incorpora al directorio público con datos validados.</p></article></div></div>
     </div></section>
   </main>
-    <footer class="site-footer">
-    <div class="container footer-grid">
-      <div><a class="brand brand-footer" href="index.html"><span class="brand-word">ANA<span>CEO</span></span></a><p>Asociación Nacional Científica de Estudiantes de Odontología · Chile.</p></div>
-      <div><h2>Explorar</h2><a href="organizacion.html">Organización</a><a href="sociedades.html">Sociedades</a><a href="investigacion.html">Investigación</a><a href="eventos.html">Eventos</a></div>
-      <div><h2>Institucional</h2><a href="transparencia.html">Transparencia</a><a href="privacy-policy.html">Privacidad</a><a href="terms-of-use.html">Términos de uso</a><a href="index.html#contacto">Contacto</a></div>
-    </div>
-    <div class="container footer-bottom"><span>© <span data-current-year>2026</span> ANACEO</span><span>Investigación odontológica con voz estudiantil.</span><span>Página hecha por <a href="https://solvit.cl/">SolvIT</a></span></div>
-  </footer>
-    <script src="js/main.js?v=1147c8aadfeb"></script>
+  {{> footer}}
+  {{> scripts}}
 </body></html>
