@@ -40,6 +40,7 @@ Después de editar una fuente o componente, con Node.js instalado:
 node scripts/build.mjs
 node scripts/build.mjs --check
 node scripts/verify.mjs
+node --test scripts/build.test.mjs
 ```
 
 Los ocho HTML de la raíz son **archivos generados**: no editarlos a mano.

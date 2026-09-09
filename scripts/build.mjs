@@ -4,7 +4,8 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
-const read = (name) => readFile(path.join(root, name), 'utf8');
+// Git may check out CRLF on Windows and LF on the host. Hash and render the same text.
+const read = async (name) => (await readFile(path.join(root, name), 'utf8')).replaceAll('\r\n', '\n');
 const check = process.argv.includes('--check');
 const pages = (await readdir(path.join(root, 'src/pages'))).filter((name) => name.endsWith('.html')).sort();
 if (!pages.includes('index.html')) throw new Error('Falta src/pages/index.html.');

@@ -14,5 +14,6 @@ jobs:
           node-version: '24'
       - run: node --check js/main.js
       - run: node --check scripts/build.mjs
+      - run: node --test scripts/build.test.mjs
       - run: node scripts/build.mjs --check
       - run: node scripts/verify.mjs
